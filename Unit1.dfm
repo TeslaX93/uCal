@@ -3,11 +3,12 @@ object Form1: TForm1
   Top = 125
   HorzScrollBar.Visible = False
   VertScrollBar.Visible = False
+  AutoSize = True
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  Caption = 'TeslaX93 uCal 0.5'
-  ClientHeight = 179
-  ClientWidth = 172
+  Caption = 'uCal 0.5'
+  ClientHeight = 205
+  ClientWidth = 169
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -24,7 +25,7 @@ object Form1: TForm1
     Top = 0
     Width = 169
     Height = 153
-    Date = 42739.9750534722
+    Date = 42739.0574773958
     TabOrder = 0
     WeekNumbers = True
   end
@@ -53,5 +54,6 @@ object Form1: TForm1
     Height = 21
     TabOrder = 3
     Text = 'Edit1'
+    Visible = False
   end
 end
